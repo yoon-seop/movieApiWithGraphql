@@ -1,0 +1,32 @@
+{
+  "name": "movie",
+  "version": "1.0.0",
+  "description": "Movie API with graphql",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec babel-node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imgenius0136/movieApiWithGraphql.git"
+  },
+  "keywords": [
+    "node",
+    "graphql"
+  ],
+  "author": "Yoonsup SHIN",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/imgenius0136/movieApiWithGraphql/issues"
+  },
+  "homepage": "https://github.com/imgenius0136/movieApiWithGraphql#readme",
+  "dependencies": {
+    "graphql-yoga": "^1.18.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-3": "^6.24.1"
+  }
+}
